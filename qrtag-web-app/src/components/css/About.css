@@ -1,0 +1,113 @@
+.About_Container {
+  /* margin: 2% 0 2% 0%; */
+}
+
+.About_Container h3 {
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 2%;
+}
+
+.About_ImageDiv {
+  width: 100%;
+  background: #0a3f74;
+  padding: 3% 2%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.About_ImageDiv img {
+  width: 11%;
+}
+
+.About_TextDiv {
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  color: rgb(28, 28, 28);
+  width: 100%;
+  /* width: 100%; */
+  margin: 2% 0;
+}
+
+.About_details {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  /* margin: 50px; */
+  /* text-align: center; */
+}
+
+.About_details h2 {
+  margin-bottom: 12px;
+}
+
+.About_main {
+  margin-top: 60px;
+  width: auto;
+}
+
+.About_main h1 {
+  margin-bottom: 30px;
+}
+
+.About_detail_item {
+  width: 50;
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  .About_ImageDiv {
+    width: 100%;
+    padding: 5% 2%;
+  }
+
+  .About_ImageDiv img {
+    width: 15%;
+  }
+
+  .About_TextDiv {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .About_details {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .About_ImageDiv {
+    width: 100%;
+    padding: 5% 4%;
+    justify-content: center;
+  }
+
+  .About_ImageDiv img {
+    width: 25%;
+  }
+
+  .About_TextDiv {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .About_ImageDiv {
+    width: 100%;
+    padding: 7% 4%;
+    justify-content: center;
+  }
+
+  .About_ImageDiv img {
+    width: 40%;
+  }
+
+  .About_TextDiv {
+    width: 100%;
+    margin: 5% 0;
+  }
+}

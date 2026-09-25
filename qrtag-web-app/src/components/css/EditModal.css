@@ -1,0 +1,48 @@
+.all_fields{
+    display: flex;
+    flex-direction: column;
+}
+.input_field{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+.input_field{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    background: #fff !important;
+    height: 45px;
+    border-color: #000 !important;
+    color: #000 !important;
+}
+.all_fields p{
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.photo_upload{
+    width: max-content;
+    margin-top: 10px;
+    border: 1px solid rgb(10, 63, 116);
+    padding: 20px;
+}
+@media only screen and (max-width: 480px) {
+    /* .MuiBox-root {
+      width: 90% !important;
+    } */
+    .box-survey-form {
+        width: 100% !important;
+    }
+    .memorial_container .MuiBox-root {
+        width: 100% !important;
+    }
+    .memorial_container .MuiTabs-flexContainer {
+        text-align: center;
+        justify-content: center;
+    }
+    .memorial_container .MuiButtonBase-root {
+        font-size: 0.675rem;
+    }
+}

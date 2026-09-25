@@ -1,0 +1,22 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.withered_feather_36062",
+      "sha256_cert_fingerprints": [
+        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.withered_feather_36062",
+      "sha256_cert_fingerprints": [
+        "9A:71:84:0A:97:EB:8F:04:EC:5C:3F:8C:84:91:ED:31:AC:17:F4:9B:0C:22:CA:B0:69:FC:90:10:DB:7F:E2:72"
+      ]
+    }
+  }
+]

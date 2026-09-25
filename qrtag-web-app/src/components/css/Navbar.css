@@ -1,0 +1,274 @@
+.Navbar_Container {
+  padding: 1% 0% 0.5% 0%;
+  /* background: #0a3f74; */
+  background: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navbar_LogoDiv {
+  display: flex;
+  width: 13%;
+  justify-content: space-between;
+}
+
+.Navbar_LogoText {
+  width: 70%;
+  margin-left: 5%;
+}
+
+.Navbar_MenuContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.Navbar_MenuDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  /* margin-left: 2%; */
+}
+
+.Navbar_MenuLinks {
+  /* display: flex; */
+  margin: 0 5%;
+  align-items: center;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.Navbar_MenuLinks p {
+  margin: 0 5%;
+  color: #737D9B;
+  font-weight: 500;
+}
+
+.Navbar_CollapseDiv {
+  position: absolute;
+  right: 5%;
+  background: #ffffff;
+  width: 18%;
+  color: #000000;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
+  box-shadow: 0px 7px 11px rgba(0, 0, 0, 0.09);
+  overflow: hidden;
+  z-index: 100;
+}
+
+.Navbar_CollapseDivider {
+  height: 1px;
+  width: 100%;
+  background: #dddddd;
+}
+
+.Navbar_SignOutDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expandIconsMob {
+  display: none;
+}
+
+.login_name {
+  padding: 2% 2% 2% 7%;
+  word-wrap: anywhere;
+}
+
+.Navbar_CollapseText {
+  display: flex !important;
+  align-items: center !important;
+  color: #000000;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.Navbar_CollapseText p {
+  color: #000000;
+}
+
+.Navbar_CollapseText img {
+  background: #000000;
+}
+
+.Navbar_CollapseDiv_Mob {
+  display: none;
+}
+
+.profile_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  position: relative;
+}
+
+.profile_img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.menu_Icon {
+  display: none;
+}
+
+@media only screen and (max-width: 1450px) {
+  .Navbar_CollapseDiv {
+    right: 5%;
+    width: 18%;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .Navbar_CollapseText {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .Navbar_Container {
+    padding: 1.5% 5% 2% 10%;
+  }
+
+  .Navbar_MenuDiv {
+    width: 100%;
+  }
+
+  .menu_Icon {
+    display: block;
+  }
+
+  .profile_div {
+    display: none;
+  }
+}
+
+.Navbar_MenuLinks p {
+  font-size: 0.95rem;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .Navbar_CollapseDiv {
+    right: 5%;
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .Navbar_CollapseDiv {
+    right: 5%;
+    width: 25%;
+  }
+
+  .Navbar_MenuDiv {
+    margin-right: 15px;
+  }
+
+  .Navbar_MenuLinks p {
+    font-size: 0.6rem;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar_MenuDiv {
+    display: none;
+  }
+
+  .Navbar_CollapseDiv_Mob {
+    display: block;
+  }
+
+  .expandIconsMob {
+    display: block;
+  }
+
+  .Navbar_MenuContainer {
+    width: auto;
+  }
+
+  .Navbar_CollapseDiv {
+    right: 2%;
+    width: 37%;
+  }
+
+  .profilePic_div {
+    gap: 5px;
+  }
+
+  .Navbar_LogoText {
+    width: 85px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Navbar_Container {
+    padding: 3% 7% 3% 5%;
+  }
+
+  .Navbar_CollapseDiv {
+    right: 2%;
+    width: 41%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .Navbar_CollapseDiv {
+    width: 75%;
+  }
+}
+
+.Navbar_CollapseText {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.Navbar_MenuLinks {
+  /* display: flex; */
+  align-items: center;
+  gap: 8px;
+  color: #737D9B;
+  text-decoration: none;
+  padding-bottom: 4px;
+  /* width: 70px; */
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.Navbar_MenuLinks p {
+  color: inherit;
+}
+
+.Navbar_MenuLinks img {
+  width: 35px;
+  height: 30px;
+}
+
+.Navbar_MenuLinks.active {
+  color: #ea4736;
+  border-bottom: 3px solid #ea4736;
+}
+
+.cart-block {
+	background: #EFF4FB;
+	height: 42px;
+	width: 42px;
+	border-radius: 50%;
+	border: 0.5px solid #E2E8F0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  cursor: pointer;
+}
+.cart-block svg {
+  fill: #64748B;
+}

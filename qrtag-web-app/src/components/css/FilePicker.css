@@ -1,0 +1,35 @@
+.filepicker_input{
+    display: none;
+}
+
+.filepicker_main_div{
+    width: 100%;
+    height: auto;
+    min-height: 7rem;
+    border-radius: 9px;
+    border: 1px solid #EAECF0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    /* position: relative;
+    z-index: 1; */
+}
+.filepicker_image {
+    align-items: 'center'; 
+    margin-block: 5;
+    width: 100px;
+    height: 80px;
+    position: relative;
+}
+
+.filepicker_image_img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.filepicker_multiple {
+    display: flex;
+    gap: 10px;
+}

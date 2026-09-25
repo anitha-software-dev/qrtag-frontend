@@ -1,0 +1,386 @@
+.MuiBox-root.css-1wnsr1i {
+  width: 25%;
+}
+
+.LogInContainer {
+  width: 100%;
+  display: flex;
+  /* height: 100vh; */
+}
+
+.LogIn_ImageDiv {
+  width: 40%;
+}
+
+.LogIn_Image {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.LogIn_RightDiv {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LogIn_FormDiv {
+  width: 48%;
+  padding: 2%;
+}
+
+@media screen and (max-width: 768px) {
+  .Auth_Bg {
+    background-color: #f8fafd;
+  }
+}
+
+.LogIn_HeadingDiv {
+  margin-bottom: 5%;
+}
+
+.LogIn_HeadingDiv h3 {
+  color: #1e5af9;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.LogIn_HeadingDiv p {
+  color: #5B6172;
+  /* font-weight: 400; */
+}
+
+.LogIn_InputDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.LogIn_InputDiv h3 {
+  font-weight: 600;
+  color: #000000;
+}
+
+.LogIn_InputEmail {
+  padding: 3% 2%;
+  margin: 2% 0;
+  background: #ffffff;
+  border: 1px solid #818181;
+  border-radius: 5px;
+  outline: none;
+}
+
+.LogIn_InputPasswordDiv {
+  padding: 1% 2%;
+  /* margin: 2% 0; */
+  border: 1px solid #818181;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.LogIn_InputPassword {
+  border: none;
+  width: 90%;
+  outline: none;
+}
+
+.LogIn_ForgotPasswordDiv {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+
+/* .LogIn_ForgotPasswordLink {
+  color: #638be2 !important;
+  font-weight: 600 !important;
+} */
+
+.LogIn_ForgotPasswordDiv p {
+  color: #4c79de;
+  /* font-weight: 600; */
+}
+
+.LogIn_BtnDiv {
+  background: #ea4736;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1%;
+}
+
+.LogIn_Btn,
+.LogIn_BtnWeb {
+  color: #ffffff;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 3% 0;
+}
+
+.LogIn_SignUpDiv {
+  text-align: center;
+  color: #152758;
+}
+
+.LogIn_SignUpDiv span {
+  color: #0a3f74;
+  font-weight: 700;
+}
+
+.LogIn_DividerDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LogIn_Divider {
+  height: 1px;
+  width: 32%;
+  background: #dddddd;
+}
+
+.LogIn_DividerDiv p {
+  /* font-weight: 600; */
+  color: #1c1c1c;
+  margin-top: 3%;
+  font-size: 1rem;
+}
+
+.LogIn_SignInOptions {
+  text-align: center;
+}
+
+.LogIn_SignInOptions p {
+  color: #1c1c1c;
+  font-weight: 400;
+}
+
+.LogIn_SocialContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LogIn_SocialDiv {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LogIn_SocialDiv img {
+  width: 25%;
+}
+
+.OtpInputBox {
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 5% !important;
+}
+
+.OtpInputBox input {
+  width: 60% !important;
+  height: 3rem;
+  margin: 0 1%;
+  border: 1px solid #0a3f74 !important;
+  border-radius: 5px !important;
+  color: #000000 !important;
+  text-align: center;
+}
+
+::placeholder {
+  color: #818181;
+}
+
+.PhoneInputInput {
+  border: none !important;
+  outline: none !important;
+  background: transparent;
+}
+
+@media only screen and (max-width: 1366px) {
+  .LogIn_FormDiv {
+    width: 50%;
+  }
+
+  /* .LogIn_ImageDiv {
+    height: 100% !important;
+  }
+
+  .LogIn_RightDiv {
+    height: 100% !important;
+  } */
+}
+
+@media only screen and (max-width: 1024px) {
+  .LogIn_FormDiv {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .LogIn_ImageDiv {
+    width: 40%;
+  }
+
+  .LogIn_RightDiv {
+    width: 60%;
+  }
+
+  .LogIn_FormDiv {
+    width: 90%;
+  }
+
+  .MuiBox-root.css-1wnsr1i {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .LogIn_BtnWeb {
+    display: none;
+  }
+
+  .Back_login {
+    margin-top: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .LogInContainer {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .LogIn_ImageDiv {
+    display: none;
+    width: 100%;
+    height: 70vh;
+  }
+
+  .LogIn_RightDiv {
+    /* margin-top: 5%; */
+    padding: 5% 0;
+    width: 100%;
+  }
+
+  .terms-div .LogIn_RightDiv {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .MuiBox-root.css-1wnsr1i {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .LogInContainer {
+    height: auto !important;
+  }
+}
+
+.Submit_BtnDiv {
+  background: #0a3f74 !important;
+  border-radius: 100px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3% 10% !important;
+}
+
+.Close_BtnDiv {
+  background: #d7d7d7 !important;
+  border-radius: 100px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3% 10% !important;
+  color: #000 !important;
+}
+
+.LogIn_HeadingDivs h2 {
+  color: #000000;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center !important;
+}
+
+.LogIn_HeadingDivs p {
+  color: #000000;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0px;
+  text-align: center !important;
+}
+
+.LogIn_BtnDivs {
+  align-items: center;
+  background: #1e5af9;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin: 3% 1%;
+  text-align: center;
+}
+
+.LogIn_Btns {
+  color: #ffffff;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 10px 45px !important;
+}
+
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .LogInContainer {
+    height: 110vh !important;
+  }
+}
+
+/* iPad Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .LogInContainer {
+    height: 110vh !important;
+  }
+}
+
+/* Landscape */
+/* @media only screen and (min-width: 1366px) and (orientation: landscape) {
+  .LogInContainer {
+    height: 110vh !important;
+  }
+} */
+
+/*Portrait*/
+/* @media only screen and (min-width: 1024px) and (orientation: portrait) {
+  .LogInContainer {
+    height: 110vh !important;
+  }
+} */
+
+/* Landscape */
+/* @media only screen and (min-device-width: 1112px) and (orientation: landscape) {
+  .LogInContainer {
+    height: 110vh !important;
+  }
+} */
+
+/*Portrait*/
+/* @media only screen and (min-device-width: 834px) and (orientation: portrait) {
+  .LogInContainer {
+    height: 110vh !important;
+  }
+} */

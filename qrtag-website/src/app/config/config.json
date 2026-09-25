@@ -1,0 +1,10 @@
+{
+    "NODE_ENV": "development",
+    "BASE_URL": "/api/v1",
+    "BACKEND_API_URL": "",
+    "BASE_URL1": "",
+    "APP_URL1": "",
+    "APP_URL": "",
+    "WEB_URL": "/",
+    "WEB_URL1": ""
+}

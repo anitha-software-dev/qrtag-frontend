@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-qrtagitweb-dev-234413-authRole",
+      "UnauthRoleArn": "arn:aws:iam::635077240221:role/amplify-qrtagitweb-dev-234413-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::635077240221:role/amplify-qrtagitweb-dev-234413-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-qrtagitweb-dev-234413-deployment",
+      "UnauthRoleName": "amplify-qrtagitweb-dev-234413-unauthRole",
+      "StackName": "amplify-qrtagitweb-dev-234413",
+      "StackId": "arn:aws:cloudformation:us-west-2:635077240221:stack/amplify-qrtagitweb-dev-234413/e22ff170-5ccc-11ed-b06f-0200dd28705b",
+      "AmplifyAppId": "d1i6i6g25r1vzu"
+    },
+    "categories": {
+      "auth": {
+        "qrtagitwebf0fc8380": {}
+      }
+    }
+  }
+}

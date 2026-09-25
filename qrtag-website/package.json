@@ -1,0 +1,38 @@
+{
+  "name": "QRTag.it",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:turbo": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "bootstrap": "^5.3.7",
+    "bootstrap-icons": "^1.13.1",
+    "html-react-parser": "^5.2.5",
+    "next": "15.3.4",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.0.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-hook-form": "^7.65.0",
+    "react-share-social": "^0.1.60",
+    "react-slick": "^0.30.3",
+    "react-spinners": "^0.17.0",
+    "react-toastify": "^11.0.5",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^24.0.8",
+    "@types/react": "^19.1.8",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.4",
+    "typescript": "^5.8.3"
+  }
+}
